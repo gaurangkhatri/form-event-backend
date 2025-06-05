@@ -7,7 +7,7 @@ const app = express();
 
 // CORS setup — update to your Vercel frontend URL in production
 app.use(cors({
-  origin: 'http://localhost:5174', // Replace with 'https://your-vercel-app.vercel.app' on deploy
+  origin: 'https://form-event-frontend-d9fs.vercel.app', // Replace with 'https://your-vercel-app.vercel.app' on deploy
   methods: ['GET', 'POST'],
   credentials: true
 }));
